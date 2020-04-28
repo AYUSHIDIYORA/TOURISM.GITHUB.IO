@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	
+	width:100%;   height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../3.png);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	width: 100%;height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color:white; justify-content: space-between;
+	text-transform: uppercase;
+	background-size: cover;
+	
+	align-items: center;
+	text-transform: uppercase2
+}
+nav.logo{
+	
+	float: left;
+	width:  25%;
+	text-align: center;
+}
+main{
+		width: 100%;
+		height: 85vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center; color: white;
+	}
+	section h5{
+	
+		font-size: 23px;
+		font-weight: 20;
+		letter-spacing: 3px;
+		text-shadow:1px 1px 2px black; 
+		
+	}
+	
+	section h3{
+		margin: : 20px 0 20PX 0;
+		font-size: 55PX;
+		font-weight: 75;
+		letter-spacing: 700;
+		text-shadow:1px 1px 2px black;
+		text-transform: uppercase;
+	
+		
+	}
+ul
+{
+	float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li{
+
+display: inline-block;
+
+}
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.1s ease;
+}
+ul li a:hover{
+	background-color:  #00b894;
+	color: #000;
+	transition: 0.5s;
+}
+
+ul li.Active a{
+	background-color: #00b894;
+	color: #000;
+
+}
+.logo img
+{
+	float: left;
+	width: 130px;
+	height: auto;
+
+
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h2{
+color: #fff;
+font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.1s ease;
+}
+.btn:hover{
+	background-color: #00b894;
+	color: #000;
+
+}
+.place
+{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.pla
+{
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.1s ease;
+}
+.pla:hover
+{
+	background-color: #00b894;
+	color: #000;
+
+}
+
+
+
+
